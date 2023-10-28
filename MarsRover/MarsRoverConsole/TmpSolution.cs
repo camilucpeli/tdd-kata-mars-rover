@@ -1,6 +1,9 @@
 namespace MarsRoverConsole;
 
-public class TmpSolution
+public static class TmpSolution
 {
-    
+    public static object Tmp()
+    {
+        return null;
+    }
 }
