@@ -15,7 +15,7 @@ public class TmpSolutionTests
     [TestCase("55", "33E", "MMRMMRMRRM", "51E")]
     public void TmpTest(object upperRightPlateauCoordinates, object initialRoverPosition, object instructions, object expectedFinalPosition)
     {
-        var actualFinalPosition = TmpSolution.Tmp();
+        var actualFinalPosition = TmpSolution.Tmp(upperRightPlateauCoordinates, initialRoverPosition, instructions);
         Assert.That(actualFinalPosition, Is.EqualTo(expectedFinalPosition));
     }
 }
